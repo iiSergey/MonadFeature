@@ -1,4 +1,4 @@
-﻿// Learn more about F# at http://fsharp.org
+// Learn more about F# at http://fsharp.org
 
 open System
 open System.Threading.Tasks
@@ -80,11 +80,11 @@ let main argv =
         state {
             let! board = State.Get
             let key = IO.run drawIO 
-            let st= match key with
-            |ConsoleKey.UpArrow ->"+";
-            |ConsoleKey.DownArrow ->"-"; 
-            |ConsoleKey.Escape -> "exit!"; 
-            |_ ->"?"; 
+            let st = match key with
+                        | ConsoleKey.UpArrow ->"+";
+                        | ConsoleKey.DownArrow ->"-"; 
+                        | ConsoleKey.Escape -> "exit!"; 
+                        | _ ->"?"; 
             return! State.Put (board + st)
         }
     let moveUp () =

@@ -1,0 +1,29 @@
+type file
+id MonadFeature
+title
+    MonadFeature
+owners
+    Sergiy Ivashchenko
+authors 
+    Sergiy Ivashchenko
+projectUrl
+    https://github.com/iiSergey/MonadFeature/SergeyIIvashchenko@gmail.com/MonadFeature
+iconUrl
+    https://raw.githubusercontent.com/iiSergey/MonadFeature/SergeyIIvashchenko@gmail.com/MonadFeature/master/docs/files/img/logo.png
+licenseUrl
+    https://github.com/iiSergey/MonadFeature/SergeyIIvashchenko@gmail.com/MonadFeature/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+language
+    F#
+copyright
+    Copyright 2017
+tags
+    F# monad suave
+summary
+    The project is aimed at studying F and functional programming.
+description
+    The project is aimed at studying F and functional programming.
+
+files
+	../../bin/MonadFeature ==> lib
